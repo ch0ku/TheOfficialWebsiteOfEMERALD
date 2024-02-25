@@ -1,0 +1,353 @@
+
+.font{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+body {
+    background: linear-gradient( 245.59deg, #4d9559 0%, #38703d 28.5%, #133917 75.52%);
+    overflow-x: hidden;
+    color: #fff;
+
+    display: grid;
+    place-content: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: xx-large;
+    color: #ffffff;
+    height: 10vh;
+}
+
+.text {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: medium;
+    color: #27592D;
+}
+
+.navbar a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: medium;
+    color: #27592D;
+    transition: 1s;
+    background: #fff;
+    color: #27592D;
+}
+
+.emerald {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.emerald a{
+    display: inline-block;
+    color: white;
+    background: linear-gradient( 245.59deg, #4d9559 0%, #38703d 28.5%);
+    border: 1px solid white;
+    padding: 12px 30px;
+    Line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 200px;
+    text-decoration: none;
+}
+
+.emerald p {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20;
+    width: 1000;
+    
+}
+
+
+
+.news {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;   
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+.texts {   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;   
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+footer {
+    background-color: transparent;
+}
+
+.icons  {
+   display: flex;
+   justify-content: center;
+  
+
+}
+
+.icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+    color: #27592D;
+}
+
+.icons a i{
+    font-size: 1em;
+    color: #27592D;
+}
+
+.icons a:hover{
+    background: linear-gradient( 245.59deg, #4d9559 0%, #38703d 28.5%, #133917 75.52%) ;
+    color: #fff;
+    transition: 1s;
+}
+
+.rights{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;   
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 15;
+    color: #fff;
+}
+
+.container{
+    width: 90%;
+    padding: 30px;
+    margin: 10px auto;
+    background: linear-gradient( 245.59deg, #4d9559 0%, #38703d 28.5%, #133917 75.52%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60vh;
+}
+
+.box{
+    width: 250px;
+    height: 30vh;
+    background: orange;
+   margin: 50px 10px;
+   transition: 1s;
+
+}
+.box:hover{
+    transform: scale(1.3);
+    background: #ff800a;
+    z-index: 2;
+    box-shadow: 2px 2px 2px #000;
+    
+}
+
+.timeline{
+    width: 800px;
+    height: auto;
+    margin: 50px auto 0;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.timeline li{
+    position: relative;
+    list-style-type: none;
+}
+
+.timeline li .item{
+    position: relative;
+    min-height: 60px;
+    background-color: linear-gradient( 245.59deg, #4d9559 0%, #38703d 28.5%, #133917 75.52%);
+    padding: 20px 20px 32px 90px;
+    margin-left: 20px;
+    color: white;
+    border-left: 1px solid #ffffff;
+
+
+}
+
+.timeline li:last-child .item{
+    border-left: 1px solid transparent;
+}
+
+.timeline li .item span{
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.containe1r{
+    background-color: #2e395d;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    justify-content: center;
+}
+
+.h1{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.announcement {
+    max-width: 450px;
+}
+
+.items{
+    background-color: #202a47;
+    padding: 0rem 0rem;
+    display: grid;
+    grid-template-columns: 60% 0%;
+    row-gap: 0px;
+    position: relative;
+    border-radius: .5rem;
+}
+
+.items.hide{
+    display: none;
+}
+
+.items h2{
+    font-size: 1.15rem;
+}
+
+.items .dots{
+    cursor: pointer;
+    color: #7984ab;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    top: -5px;
+    right: 25px;
+}
+
+.items .info{
+    grid-column: 1 / 2;
+    display: flex;
+    align-items: center;
+    gap: 12px
+}
+
+.items .info img{
+    width: 40px;
+    height: 40px;
+    border: 3px solid #8893bc;
+    border-radius: 50%;
+}
+
+.items .info .pplname{
+    color: #8893bc;
+    font-size: .9rem;
+    font-weight: bold; 
+}
+
+.items .announcement-time{
+    color: #7984ab;
+    font-size: .9rem;
+}

@@ -1,0 +1,81 @@
+body{
+    background-color: #202a47 ;
+    color: #fff;
+    min-height: 100vh;
+    font-size: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+
+}
+
+.containe1r{
+    background-color: #2e395d;
+    padding: 2rem;
+    border-radius: .75rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.h1{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.announcement {
+    max-width: 450px;
+}
+
+.items{
+    background-color: #202a47;
+    padding: 1rem 1.25rem;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    row-gap: 30px;
+    position: relative;
+    border-radius: .5rem;
+}
+
+.items.hide{
+    display: none;
+}
+
+.items h2{
+    font-size: 1.15rem;
+}
+
+.items .dots{
+    cursor: pointer;
+    color: #7984ab;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    top: -5px;
+    right: 25px;
+}
+
+.items .info{
+    grid-column: 1 / 2;
+    display: flex;
+    align-items: center;
+    gap: 12px
+}
+
+.items .info img{
+    width: 40px;
+    height: 40px;
+    border: 3px solid #8893bc;
+    border-radius: 50%;
+}
+
+.items .info .pplname{
+    color: #8893bc;
+    font-size: .9rem;
+    font-weight: bold; 
+}
+
+.items .announcement-time{
+    color: #7984ab;
+    font-size: .9rem;
+}
